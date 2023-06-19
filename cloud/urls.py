@@ -28,5 +28,6 @@ urlpatterns = [
     path('starred/',include('starred.urls')),
     path('locked/',include('locked.urls')),
     path('storage/',include('storage.urls')),
+    path('lockedfiles/',include('lockedfiles.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

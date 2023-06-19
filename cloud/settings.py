@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'starred',
     'storage',
     'locked',
+    'lockedfiles',
     'rest_framework_simplejwt',
     'home.apps.HomeConfig',
     'django.contrib.admin',
